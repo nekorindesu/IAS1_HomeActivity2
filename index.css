@@ -8,11 +8,12 @@
 
 body{
     background-color: #ADDCBC;
-    margin:0;
+    margin: 0;
 }
 
 .container {
     max-width: 600px;
+    min-width: 600px;
     margin: 50px auto;
     padding: 20px;
     background-color: #5F875A; 
@@ -25,30 +26,30 @@ body{
 
 h1{
     text-align: center;
-    color:#fdd5ee;
+    color: #fdd5ee;
     margin-bottom: 0;
 }
 
 h4{
     text-align:center;
-    color:#ffffff;
+    color: #ffffff;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 h6{
-    text-align:center;
-    color:#ffffff;
+    text-align: center;
+    color: #ffffff;
     margin-top: 5px;
 }
 
 label{
-    color:#ffffff;
-    text-align:center;
+    color: #ffffff;
+    text-align: center;
 }
 
 input[type="password"]{
-    color:#f75c9d;
-    background-color:rgb(247, 238, 226);
+    color: #f75c9d;
+    background-color: rgb(247, 238, 226);
     border: none;
     padding: 5px;
     border-radius: 4px;
@@ -61,29 +62,29 @@ input[type="password"]{
 .redirect{
     text-align: center;
     padding: 10px 15px;
-    color:#f75c9d;
-    background-color:rgb(247, 238, 226);
+    color: #f75c9d;
+    background-color: rgb(247, 238, 226);
     border-radius: 15px;
     border: none;
     margin-left: 95px;
-    margin-right:95px;
+    margin-right: 95px;
 }
 
 .redirect:hover{
-    background-color:bisque;
+    background-color: bisque;
     cursor: pointer;
 }
 
 .redirectno:hover{
     cursor: pointer;
-    color:bisque;
+    color: bisque;
 }
 
 .redirect1{
     text-align: center;
     padding: 5px;
-    color:#f75c9d;
-    background-color:rgb(247, 238, 226);
+    color: #f75c9d;
+    background-color: rgb(247, 238, 226);
     border-radius: 15px;
     border: none;
     margin-inline: 85px;
@@ -92,7 +93,7 @@ input[type="password"]{
 }
 
 .redirect1:hover{
-    background-color:bisque;
+    background-color: bisque;
     cursor: pointer;
 }
 
@@ -134,7 +135,7 @@ input[type="password"]{
 .grid-item {
     width: 150px;
     height: 150px;
-    background-color:rgb(247, 238, 226);
+    background-color: rgb(247, 238, 226);
     cursor: pointer;
     border-radius: 5px;
     background-size: cover; 
