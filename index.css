@@ -109,6 +109,12 @@ input[type="password"]{
     height: auto;
 }
 
+.gif3 {
+    border-radius: 10px;
+    width: 300px;
+    height: auto;
+}
+
 .gif-container {
     display: flex;
     justify-content: center;
@@ -140,6 +146,20 @@ input[type="password"]{
     border-radius: 5px;
     background-size: cover; 
     background-position: center; 
+}
+
+.alertPopup {
+    display: none;
+    position: absolute;
+    min-width: 400px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fdd5ee;
+    padding: 20px;
+    border-radius: 10px;
+    color: #fff;
+    z-index: 9999;
 }
 
 .popup {
