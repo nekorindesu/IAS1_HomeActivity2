@@ -23,6 +23,18 @@
 
             <button type="submit" class="redirect" onclick="validateAndRedirect()"> Enter </button>
             <h6 onclick="redirect()" class="redirectno"> Don't know? </h6>
+
+            <div id="overlay" class="overlay"></div>
+
+            <div id="alertPopup" class="alertPopup">
+                <span class="close-btn" onclick="closeAlertPopup()">&times;</span>
+                <div id="alertMessage" class="message">
+                    Please enter a secret code!
+                </div>
+                <div class="gif-container">
+                    <img src="please.gif" alt="kittykang nyaa gif" class="gif3">
+                </div>
+            </div>
         </div>     
     </body>
 </html>
