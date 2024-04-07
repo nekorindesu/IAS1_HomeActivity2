@@ -3,7 +3,8 @@ function validateAndRedirect(){
     var secretcode = document.getElementById("secret").value;
 
     if (!secretcode.trim()) {
-        alert("Please enter a secret code!");
+        document.getElementById('alertPopup').style.display = 'block';
+        document.getElementById('overlay').style.display = 'block';
         return;
     }
 
@@ -13,6 +14,11 @@ function validateAndRedirect(){
     else{
         window.location.href="without.html";
     }
+}
+
+function closeAlertPopup() {
+    document.getElementById('alertPopup').style.display = 'none';
+    document.getElementById('overlay').style.display = 'none';
 }
 
 function redirect(){
