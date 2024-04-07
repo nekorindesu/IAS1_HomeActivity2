@@ -27,7 +27,14 @@ function revealPicture(id) {
     var gridItem = document.querySelectorAll('.grid-item')[id - 1];
     if (id === 5) {
         gridItem.style.backgroundImage = 'url("kittykang.gif")';
+        document.getElementById('popup').style.display = 'block';
+        document.getElementById('overlay').style.display = 'block';
     } else {
         gridItem.style.backgroundImage = 'url("picture' + id + '.jpg")';
     }
+}
+
+function closePopup() {
+    document.getElementById('popup').style.display = 'none';
+    document.getElementById('overlay').style.display = 'none';
 }
