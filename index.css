@@ -141,3 +141,45 @@ input[type="password"]{
     background-size: cover; 
     background-position: center; 
 }
+
+.popup {
+    display: none;
+    position: fixed;
+    max-width: 400px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fdd5ee;
+    padding: 20px;
+    border-radius: 10px;
+    color: #fff;
+    z-index: 9999;
+}
+
+.message {
+    text-align: center;
+    font-size: 18px;
+    color:darkslateblue;
+    margin-top: 10px;
+}
+
+.close-btn {
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    cursor: pointer;
+    font-size: 24px;
+    color: darkslateblue;
+}
+
+.overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 9998;
+    backdrop-filter: blur(2px);
+}
